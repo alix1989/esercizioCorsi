@@ -1,0 +1,99 @@
+body {
+    background-image: url(../assets/img/60286.jpg);
+    background-size: cover;
+}
+
+.navetta {
+    background: white;
+    border-bottom: 3px solid rgb(253, 167, 54);
+
+}
+
+.nav-link {
+    color: rgb(128, 9, 0);
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5rem;
+    margin-top: -0.6rem;
+}
+
+.nav-link:hover {
+    color:rgb(236, 207, 154);
+}
+
+#login {
+    margin: auto;
+    margin-top: -1%;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid rgb(253, 167, 54);
+    box-shadow: 2px 2px 6px 1px #444;
+}
+
+.titolo {
+    margin-top: 20%;
+    color: rgb(128, 9, 0);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 2px#444;
+}
+
+
+
+.input-group-text {
+    margin: auto;
+}
+
+.btn {
+    background-color: white;
+    color: rgb(128, 9, 0);
+    outline: 1px solid rgba(128, 9, 0, 0.199);
+}
+
+#messaggio {
+    margin: auto;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    color: rgb(128, 9, 0);
+}
+
+.corso {
+    padding: 20px;
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid rgb(253, 167, 54);
+    box-shadow: 2px 2px 6px 1px #444;
+}
+
+.corsoprima {
+    height: 3px;
+    padding: 0;
+}
+
+.nascosto {
+    display: none;
+}
+
+#progress {
+    background-color: rgb(253, 167, 54);
+    width: 0px;
+    height: 40px;
+
+}
+
+.bottoncino {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 9px;
+    border: 2px solid rgb(128, 9, 0);
+    color: rgb(128, 9, 0);
+}
