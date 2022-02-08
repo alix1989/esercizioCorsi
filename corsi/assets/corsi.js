@@ -36,17 +36,17 @@ $(() => {
 
     // eventi on click per far comparire i corsi
     $('#pianoforte').on('click', function() {
-        $('#corsoPiano').removeClass('corsoprima').append(pianoforte.corsoIntero());
+        $('#corsoPiano').removeClass('corsoprima').html(pianoforte.corsoIntero());
         $('#chiudi_pianoforte').removeClass('nascosto');
     });
 
     $('#chitarra').on('click', function() {
-        $('#corsoChitarra').removeClass('corsoprima').append(chitarra.corsoIntero());
+        $('#corsoChitarra').removeClass('corsoprima').html(chitarra.corsoIntero());
         $('#chiudi_chitarra').removeClass('nascosto');
     });
 
     $('#violino').on('click', function() {
-        $('#corsoViolino').removeClass('corsoprima').append(violino.corsoIntero());
+        $('#corsoViolino').removeClass('corsoprima').html(violino.corsoIntero());
         $('#chiudi_violino').removeClass('nascosto');
     });
 
